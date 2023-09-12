@@ -19,6 +19,16 @@ $(document).ready(function(){
             settings: {
                 slidesToShow: 3
             }
+        }, {
+            breakpoint: 400,
+            settings: {
+                slidesToShow:2
+            }
+        }, {
+            breakpoint: 320,
+            settings: {
+                slidesToShow:1
+            }
         }]
     });
 });
