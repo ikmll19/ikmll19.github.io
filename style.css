@@ -671,14 +671,15 @@ nav ul li.btn span.show:before{
     width:90vmin;
   }
   .text-box{
+    width: 90%;
     top: 50%;
     left: 37%;
   }
   .text-box h1{
-    font-size: 6.5vmin;
+    font-size: 7vmin;
   }
   .text-box b{
-    font-size: 8vmin;
+    font-size: 8.5vmin;
   }
   .text-box p{
     font-size: 2.5vmin;
