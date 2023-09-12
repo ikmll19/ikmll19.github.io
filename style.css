@@ -737,3 +737,8 @@ nav ul li.btn span.show:before{
     -webkit-box-orient: vertical;
   }
 }
+@media screen and (max-width:580px){
+  .berita img{
+    display:none;
+  } 
+}
