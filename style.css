@@ -189,7 +189,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box h1{
-  font-size: 6vh;
+  font-size: 5.7vmin;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -198,7 +198,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box b{
-  font-size: 7.5vh;
+  font-size: 7vmin;
   padding-left: 15px;
   font-family: 'Kaushan Script', cursive;
   font-style: normal;
@@ -375,13 +375,13 @@ nav ul li.btn span.show:before{
 
 .home-tengah .tentang-batik h1{
   font-family: 'Kaushan Script', cursive;
-  font-size: 5vh;
+  font-size: 36px;
   font-weight: normal;
   font-style: normal;
 }
 
 .home-tengah .tentang-batik h2{
-  font-size: 3vh;
+  font-size: 20px;
   font-weight: 400;
   font-family: 'Abhaya Libre', serif;
   margin: 5px;
@@ -390,7 +390,7 @@ nav ul li.btn span.show:before{
 
 .home-tengah .tentang-batik h3{
   margin-top:4%;
-  font-size: 2.8vh;
+  font-size: 18px;
   font-style: italic;
   margin-left: 3%;
 }
@@ -470,12 +470,12 @@ nav ul li.btn span.show:before{
 .text-explore h1{
   font-family: 'Kaushan Script', cursive;
   font-weight: normal;
-  font-size: 4.8vh;
+  font-size: 36px;
   padding: 1%;
 }
 .text-explore h2{
   font-weight: normal;
-  font-size: 3vh;
+  font-size: 20px;
 }
 .peta{
   margin-top: 2%;
@@ -586,7 +586,7 @@ nav ul li.btn span.show:before{
   color: #fff;
   font-family: 'Kaushan Script', cursive;
   font-weight: normal;
-  font-size: 4.5vh;
+  font-size: 4vh;
   display: inline-block;
   letter-spacing: -0.4px;
 }
@@ -595,7 +595,7 @@ nav ul li.btn span.show:before{
   color: #fff;
   font-weight: normal;
   padding: 0% 8%;
-  font-size: 3vh;
+  font-size: 2.5vh;
 }
  
 /* next is artikel.html */
