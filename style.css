@@ -178,7 +178,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box{
-	width: 60%;
+	max-width: 90vmin;
 	color: #fff;
 	position:absolute;
 	top: 50%;
