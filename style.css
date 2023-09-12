@@ -189,7 +189,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box h1{
-  font-size: 6.5vh;
+  font-size: 5vmin;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -198,7 +198,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box b{
-  font-size: 8vh;
+  font-size: 6.5vmin;
   padding-left: 15px;
   font-family: 'Kaushan Script', cursive;
   font-style: normal;
@@ -210,7 +210,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box p{
-  font-size: 3vh;
+  font-size: 2vh;
   display: block;
   color:#222222;
   padding: 8px 25px;
