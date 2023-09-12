@@ -676,13 +676,13 @@ nav ul li.btn span.show:before{
     left: 47%;
   }
   .text-box h1{
-    font-size: 7vmin;
+    font-size: 5.5vh;
   }
   .text-box b{
-    font-size: 8.5vmin;
+    font-size: 7vh;
   }
   .text-box p{
-    font-size: 2.5vmin;
+    font-size: 2vh;
   }
 }
 .berita:hover{
