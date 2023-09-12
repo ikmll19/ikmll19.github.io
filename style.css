@@ -178,11 +178,11 @@ nav ul li.btn span.show:before{
 }
 
 .text-box{
-	max-width: 90vh;
+	width: 60%;
 	color: #fff;
 	position:absolute;
 	top: 50%;
-	margin-left: 40vmax;
+	left: 40%;
 	transform:translate(-50%, -50%);
 	text-align: left;
   user-select: none;
@@ -211,7 +211,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box p{
-  font-size: 2.5vh;
+  font-size: 3vh;
   display: block;
   color:#222222;
   padding: 8px 25px;
@@ -672,13 +672,16 @@ nav ul li.btn span.show:before{
   }
   .text-box{
     top: 50%;
-    margin-left: 42%;
+    left: 37%;
   }
   .text-box h1{
     font-size: 6.5vmin;
   }
   .text-box b{
     font-size: 8vmin;
+  }
+  .text-box p{
+    font-size: 2.5vmin;
   }
 }
 .berita:hover{
