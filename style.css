@@ -182,14 +182,14 @@ nav ul li.btn span.show:before{
 	color: #fff;
 	position:absolute;
 	top: 50%;
-	left: 40%;
+	left: 30%;
 	transform:translate(-50%, -50%);
 	text-align: left;
   user-select: none;
 }
 
 .text-box h1{
-  font-size: 5vmin;
+  font-size: 6vmin;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -198,7 +198,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box b{
-  font-size: 6.5vmin;
+  font-size: 7.5vmin;
   padding-left: 15px;
   font-family: 'Kaushan Script', cursive;
   font-style: normal;
@@ -210,7 +210,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box p{
-  font-size: 2vh;
+  font-size: 2.5vh;
   display: block;
   color:#222222;
   padding: 8px 25px;
