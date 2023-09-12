@@ -178,7 +178,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box{
-	max-width: 90vmin;
+	max-width: 90vh;
 	color: #fff;
 	position:absolute;
 	top: 50%;
@@ -189,7 +189,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box h1{
-  font-size: 6vmin;
+  font-size: 6vh;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -198,7 +198,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box b{
-  font-size: 7.5vmin;
+  font-size: 7.5vh;
   padding-left: 15px;
   font-family: 'Kaushan Script', cursive;
   font-style: normal;
@@ -586,7 +586,7 @@ nav ul li.btn span.show:before{
   color: #fff;
   font-family: 'Kaushan Script', cursive;
   font-weight: normal;
-  font-size: 4.5rem;
+  font-size: 4.5vh;
   display: inline-block;
   letter-spacing: -0.4px;
 }
@@ -595,7 +595,7 @@ nav ul li.btn span.show:before{
   color: #fff;
   font-weight: normal;
   padding: 0% 8%;
-  font-size: 3rem;
+  font-size: 3vh;
 }
  
 /* next is artikel.html */
