@@ -586,7 +586,7 @@ nav ul li.btn span.show:before{
   color: #fff;
   font-family: 'Kaushan Script', cursive;
   font-weight: normal;
-  font-size: 4.5vh;
+  font-size: 4.5rem;
   display: inline-block;
   letter-spacing: -0.4px;
 }
@@ -595,7 +595,7 @@ nav ul li.btn span.show:before{
   color: #fff;
   font-weight: normal;
   padding: 0% 8%;
-  font-size: 3vh;
+  font-size: 3rem;
 }
  
 /* next is artikel.html */
