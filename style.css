@@ -182,14 +182,14 @@ nav ul li.btn span.show:before{
 	color: #fff;
 	position:absolute;
 	top: 50%;
-	left: 30%;
+	margin-left: 30%;
 	transform:translate(-50%, -50%);
 	text-align: left;
   user-select: none;
 }
 
 .text-box h1{
-  font-size: 5.7vmin;
+  font-size: 5.7vh;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -198,7 +198,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box b{
-  font-size: 7vmin;
+  font-size: 7vh;
   padding-left: 15px;
   font-family: 'Kaushan Script', cursive;
   font-style: normal;
@@ -411,7 +411,7 @@ nav ul li.btn span.show:before{
   padding:5px;
   padding-left: 5%;
   height: min-content;
-  font-size: 2vh;
+  font-size: 14px;
 }
 .berita-home ul li a{
   color:#222222;
@@ -470,12 +470,12 @@ nav ul li.btn span.show:before{
 .text-explore h1{
   font-family: 'Kaushan Script', cursive;
   font-weight: normal;
-  font-size: 36px;
+  font-size: 33px;
   padding: 1%;
 }
 .text-explore h2{
   font-weight: normal;
-  font-size: 20px;
+  font-size: 18px;
 }
 .peta{
   margin-top: 2%;
