@@ -189,7 +189,7 @@ nav ul li.btn span.show:before{
 }
 
 .text-box h1{
-  font-size: 5.7vh;
+  font-size: 6.5vh;
   font-style: italic;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
@@ -198,12 +198,13 @@ nav ul li.btn span.show:before{
 }
 
 .text-box b{
-  font-size: 7vh;
+  font-size: 8vh;
   padding-left: 15px;
   font-family: 'Kaushan Script', cursive;
   font-style: normal;
   font-weight: normal;
 }
+
 
 .text-box .btn-ex{
   max-width: fit-content;
@@ -669,6 +670,18 @@ nav ul li.btn span.show:before{
   .berita{
     width:90vmin;
   }
+  .text-box{
+    top: 50%;
+    margin-left: 50%;
+  }
+  
+  .text-box h1{
+    font-size: 5.5vmin;
+  }
+  
+  .text-box b{
+    font-size: 7vmin;
+  }
 }
 .berita:hover{
   background: rgba(255, 255, 255, 0.75);
@@ -705,6 +718,7 @@ nav ul li.btn span.show:before{
 .text-berita:active{
   color:#9d3c0f;
 }
+
 @media screen and (max-height:720px), screen and (max-width:740px){
   .berita h3{
     overflow: hidden;
@@ -737,7 +751,7 @@ nav ul li.btn span.show:before{
     -webkit-box-orient: vertical;
   }
 }
-@media screen and (max-width:580px){
+@media screen and (max-width:580px) {
   .berita img{
     display:none;
   } 
