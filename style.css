@@ -182,7 +182,7 @@ nav ul li.btn span.show:before{
 	color: #fff;
 	position:absolute;
 	top: 50%;
-	margin-left: 30%;
+	margin-left: 40vmax;
 	transform:translate(-50%, -50%);
 	text-align: left;
   user-select: none;
@@ -672,15 +672,13 @@ nav ul li.btn span.show:before{
   }
   .text-box{
     top: 50%;
-    margin-left: 50%;
+    margin-left: 42%;
   }
-  
   .text-box h1{
-    font-size: 5.5vmin;
+    font-size: 6.5vmin;
   }
-  
   .text-box b{
-    font-size: 7vmin;
+    font-size: 8vmin;
   }
 }
 .berita:hover{
