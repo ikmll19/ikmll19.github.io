@@ -53,8 +53,18 @@ nav ul li a:after {
   transition: transform 250ms ease-in-out;
   padding: 8px;
 }
-
 nav ul li a:hover:after { transform: scaleX(1); }
+nav ul li .now-nav{
+  font-weight: bolder;
+  border-bottom: solid 3px rgb(58, 19, 0); 
+  border-width: min-content;
+}
+nav ul li .now-nav:after{
+  display:hidden;
+  transform: none;
+  transition: none;
+  border-bottom: none;
+}
 /*
 nav ul li.search-icon {
   height: 40px;
