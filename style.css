@@ -360,7 +360,7 @@ nav ul li.btn span.show:before{
 	height: auto;
   padding-left: 5%;
   padding-right: 2%;
-  padding-top: 5%;
+  padding-top: 12vh;
   display:flex;
 }
 .line-x{
@@ -393,6 +393,10 @@ nav ul li.btn span.show:before{
   margin-top:4%;
   font-size: 18px;
   font-style: italic;
+  font-weight: normal;
+  font-family: 'Kaushan Script', cursive;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
   margin-left: 3%;
 }
 
@@ -462,6 +466,7 @@ nav ul li.btn span.show:before{
   width: 100%;
 	height: auto;
   padding: 8% 5%;
+  padding-top:15vh;
   background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(62, 62, 62, 0.35)), url(image/batik-random-2.svg);
   background-position: bottom;
   background-size: cover;
@@ -621,11 +626,7 @@ nav ul li.btn span.show:before{
   display: grid;
 }
 .artikel-page h1{
-  margin-top: 100px;
-  font-family: 'Kaushan Script', cursive;
-  font-weight: normal;
-  font-size: 2.3rem;
-  text-align:center;
+  max-width: 750px;
 }
 
 .artikel-page ul li{
@@ -962,4 +963,175 @@ nav ul li.btn span.show:before{
   z-index:2!important;
   width:60px!important;
   height:60px!important;
+}
+
+/* next is galeri.html */
+.galeri{
+  width: 100%;
+  position:absolute;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(62, 62, 62, 0.35)), url(image/batik-random-2.svg);
+  background-position:top;
+  background-attachment: fixed;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.galeri nav{
+  box-shadow: 5px 0 10px 5px #c1c1c1;
+}
+.galeri-header{
+  text-align: left;
+  position:relative;
+}
+.galeri-text{
+  text-align: left;
+  margin-top: 120px;
+  margin-left:5vw;
+  padding:10px;
+  width:80vw;
+  max-width: 820px;
+}
+.galeri-text h3{
+  font-size: 20px;
+  font-weight: normal;
+  margin-left: 5px;
+}
+.galeri-text h1{
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: calc(3.5vh + 1vw);
+  font-style:italic;
+}
+.galeri-isi{
+  padding-left:4vw;
+  padding-right:4vw;
+  position: relative;
+  text-align: center;
+  margin:auto;
+}
+.tampilan-galeri{
+  display:inline-block;
+  /*border:1px solid #000;*/
+  margin:calc(12px + 0.2vw);
+  border-radius: 15px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.tampilan-galeri:hover{
+  background: rgba(255, 255, 255, 0.75);
+  box-shadow: 0 4px 20px rgba(255, 255, 255, 0.7);
+}
+.list-batik{
+  width: 26.5vw;
+}
+.tampilan-galeri img{
+  margin-top: 5%;
+  width: 90%;
+  height: calc(10vh + 10vw);
+  object-fit: cover;
+  object-position: center;
+}
+.list-batik h1{
+  font-size: 28px;
+}
+.list-batik h2{
+  margin-top:-2px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-weight: normal;
+  padding-bottom: 13px;
+}
+@media screen and (max-width:850px) {
+  .list-batik{
+    width: 38vw;
+  }
+}
+@media screen and (max-width:450px) {
+  .list-batik{
+    width:36vw;
+  }
+  .tampilan-galeri{
+    margin: 10px;
+  }
+}
+
+/* next per artikel */
+.artikel-1 nav{
+  box-shadow: 5px 0 10px 5px #c1c1c1;
+}
+.art-isi {
+  padding:9vw;
+  padding-top: 11vh;
+  text-align: left;
+}
+.art-isi img{
+  margin:auto;
+  width: 82vw;
+  height: 48vh;
+  display: block;
+  object-fit: cover;
+  object-position: center;
+}
+.art-isi h4, h5{
+  margin-top:6px;
+  font-size:18px;
+  color:#222222;
+  font-weight: normal;
+}
+.art-isi h3{
+  margin-top: 22px;
+  font-weight: normal;
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+.art-isi h1{
+  margin-top:2px;
+  margin-bottom:28px;
+  font-size: calc(28px + 1vw)
+}
+.art-isi h2{
+  font-weight: normal;
+  font-size:21px;
+}
+.art-isi h5{
+  margin-top:40px;
+}
+.art-isi h2 s{
+  text-align: center;
+  font-weight: 700;
+  font-size: calc(24px + 0.5vw);
+}
+.art-isi h2 l{
+  font-weight: bold;
+  font-size:24px;
+}
+.art-isi h2 ol{
+  margin-left:60px;
+}
+.btn-art a{
+  font-size: calc(25px + 0.3vw);
+  font-family:Poppins;
+  margin-bottom: 12px;
+  border:0px;
+  cursor:pointer;
+  color:#000;
+  padding:3px 20px 3px 0px;
+  justify-content: center;
+}
+.btn-art{
+  margin-bottom:10px;
+}
+.btn-art a:hover{
+  color:#ae510e;
+}
+.btn-art p{
+  font-family:Poppins;
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 22px;
+  display: inline-block;
+  margin-top: -3px;
+  vertical-align: 10%;
 }
