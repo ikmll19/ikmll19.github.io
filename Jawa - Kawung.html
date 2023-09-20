@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title>Kainoesa</title>
+    <script src="run.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@400;600;800;900&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <section class="motif">
+      <nav class="navbar">
+        <ul>
+          <li class="logo">
+            <img src="image/logo.png" alt="logo">
+          </li>
+          <div class="items">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="eksplor.html">Eksplor</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+            <li><a href="artikel.html">Artikel</a></li>
+            <li><a href="#about">About Us</a></li>
+          </div>
+          <li class="btn"><span class="fas fa-bars"></span></li>
+        </ul>
+      </nav>
+      <div class="gal-isi">
+        <div class="gal-img">
+          <div class="btn-art"><a href="galeri.html"><< <p>Galeri</p></a></div>
+          <img src="image/motif/kawung.jpg">
+        </div>
+        <div class="motif-text">
+          <h3>Yogyakarta, Daerah Istimewa Yogyakarta</h3>
+          <h1>Motif Batik Kawung</h1>
+          <h2>Motif kawung bermakna kesempurnaan, kemurnian dan kesucian. Dalam kebudayaan Jawa, motif kawung yang disusun geometris ini diartikan sebagai lambang terjadinya kehidupan manusia. Harapannya, agar manusia tidak melupakan asal usulnya. Selain itu, motif batik kawung juga dikenal sebagai lambang keperkasaan dan keadilan. Tak heran jika dulunya, batik kawung hanya boleh dikenakan oleh orang-orang tertentu saja, seperti pejabat kerajaan.
+            </h2>
+          <h4>Sumber: <a href="https://konveksi.co/batik/kawung/">7 Gambar Motif Batik Kawung, Sejarah, Makna dan Berbagai Filosofinya (konveksi.co)</a></h4>
+        </div>
+        <div class="rcm-box">
+          <h2>Anda mungkin tertarik :</h2> 
+          <div class="rcm-gal">
+            <img href="" src="image/motif/Lontara.jpg">
+            <img href="" src="image/motif/kenanga.jpg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <script>
+        $('nav ul li.btn span').click(function(){
+          $('nav ul div.items').toggleClass("show");
+          $('nav ul li.btn span').toggleClass("show");
+        });
+     </script>
+  </body>
+</html>
