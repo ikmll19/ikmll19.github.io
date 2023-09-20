@@ -10,12 +10,17 @@ $(document).ready(function(){
         dots: false,
         pauseOnHover: false,
         responsive: [{
-            breakpoint: 768,
+            breakpoint:1000,
+            settings: {
+                slidesToShow: 5
+            }
+        }, {
+            breakpoint: 800,
             settings: {
                 slidesToShow: 4
             }
         }, {
-            breakpoint: 520,
+            breakpoint: 600,
             settings: {
                 slidesToShow: 3
             }
@@ -25,7 +30,7 @@ $(document).ready(function(){
                 slidesToShow:2
             }
         }, {
-            breakpoint: 320,
+            breakpoint: 250,
             settings: {
                 slidesToShow:1
             }
